@@ -1,0 +1,29 @@
+body{
+    background-image: url(th.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px black;
+}
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+.result_para{
+    box-shadow: 5px 5px 5px white;
+    font-size: 20px;
+}
+canvas{
+    border: 10px ridge gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 150px;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Realtime Image Identification</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel = "stylesheet" href = "style.css" type = "text/css">
+    </head>
+    <body>
+        <center>
+            <h3 class = "btn-primary heading">Realtime Image Identification<hr><center>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">MobileNet Model This has 1.3 million images inside it.</div>
+        </center>
+            <br>
+            </h3>
+            <br><br>
+            <p class = "btn btn-success result_para">Object:
+                <span id = "result_object"></span>
+            </p>
+            <br>
+            <p class = "btn btn-success result_para">Accuracy:
+                <span id = "result_accuracy"></span>
+            </p>
+        </center>
+        <script src = "main.js"></script>
+    </body>
+</html>
